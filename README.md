@@ -1,8 +1,15 @@
 ## breathing timer
 
-This is a meditation app for breathing exercises.
+This is a meditation app for breathing exercises
 
 1. `node timer.js`<br>
-   =>
-2. `node excel.js`
+
+   <img src="./assets/timer.gif" width="35%"><hr>
+
+2. `node excel.js`<br>
+
+   <img src="./assets/excel.gif" width="35%"><br>
+
 <hr>
+<br>
+<img src="./assets/excel-data.png">

@@ -55,6 +55,7 @@ const askQuestion = async () => {
 	let newWS = xlsx.utils.json_to_sheet(jsonData);
 	xlsx.utils.book_append_sheet(newWB, newWS, 'exercises');
 	xlsx.writeFile(newWB, 'breathing-timer.xlsx');
+	console.log('File updated.')
 };
 
 askQuestion();
